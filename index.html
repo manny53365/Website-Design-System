@@ -3,38 +3,77 @@
 <html>
 
     <head>
-        <title>Manny's Website Design Page</title>
+        <title>Website Design Page</title>
         <link href="styles.css" rel="stylesheet" type="text/css">
     </head>
-
     <body>
-        <h1>Colors</h1>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Primary Colors</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="red">Red</td>
-                    <td id="yellow">Yellow</td>
-                    <td id="blue">Blue</td>
-                 </tr>
-                 <tr>
-                     <td>
-                         Red - for rgb format rgb(255,0,0) or for hex #FF0000
-                     </td>
-                     <td>
-                         Yellow - for rgb format rgb(255,255,0) or for hex #FFFF00
-                     </td>
-                     <td>
-                         Blue - for rgb format  rgb(0,0,255) or for hex #0000FF
-                     </td>
-                 </tr>
-            </tbody>
-        </table>
+        <h1>Website Style Cheatsheet</h1>
+        <div class="container">
+            <h2 class="heading">Colors/Colours</h2>
+            <div class="color-container">
+                <div class="color-panel-red">
+                    <p class="color">Red</p>
+                    <p class="rgb-format">rgb(255,0,0)</p>
+                    <p class="hex-format">#FF0000</p>
+                </div>
+                <div class="color-panel-yellow">
+                    <p class="color">Yellow</p>
+                    <p class="rgb-format">rgb (255,255,0)</p>
+                    <p class="hex-format">#FFFF00</p>
+                </div>
+                <div class="color-panel-blue">
+                    <p class="color">Blue</p>
+                    <p class="rgb-format">rgb(0,0,255)</p>
+                    <p class="hex-format">#0000FF</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="heading">Fonts</h2>
+            <div class="font-container">
+                <div class="font-panel">
+                    <h2>Merriweather</h2>
+                    <p class="merriweather">This is Merriweather font</p>
+                </div>
+                <div class="font-panel">
+                    <h2>New Tegomin</h2>
+                    <p class="tegomin">This is New Tegomin font</p>
+                </div>
+                <div class="font-panel">
+                    <h2>Roboto Condensed</h2>
+                    <p class="roboto">This is the Roboto Condensed font</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="heading">Text Styles</h2>
+            <div class="text-container">
+                <div class="heading-one">
+                    <strong><p class="merriweather">Merriweather</p></strong>
+                    <ul class="merriweather">
+                        <li>font-size: 30px</li>
+                        <li>font-family: Merriweather</li>
+                        <li>font-weight: Normal (300) Italic</li>
+                    </ul>
+                </div>
+                <div class="heading-two">
+                    <strong><p class="roboto">Roboto</p></strong>
+                    <ul class="roboto">
+                        <li>font-size: 20px</li>
+                        <li>font-family: Roboto Condensed</li>
+                        <li>font-weight: Normal (300)</li>
+                    </ul>
+                </div>
+                <div class="heading-three">
+                    <strong><p class="tegomin">New Tegomin</p></strong>
+                    <ul>
+                        <li>font-size: 10px</li>
+                        <li>font-family: New Tegomin</li>
+                        <li>font-weight: Normal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 
     <footer>
